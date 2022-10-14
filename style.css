@@ -1,0 +1,173 @@
+/* BACKGROUND AREA */
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(img/backdrop.jpg);
+    background-repeat:repeat;
+
+}
+
+/*------------------------------------ TEXT STYLINGS ----------------------------------*/   
+
+h1 {
+    color:rgb(108, 255, 162);
+    font-family: 'Silkscreen', cursive;
+    font-style: normal;
+    font-size: 55px;
+    padding: 10 50px;
+}
+
+p {
+    color:white;
+    font-family: 'Inconsolata', monospace;
+    padding: 25 50px;
+
+}
+
+/*---------------------------- NAV BAR HEADER ---------------------------*/
+
+header{
+    position:sticky;
+    top: 0;
+
+
+}
+.menu-bar { 
+    width: 100%;
+    height: 60px;
+    background-color: rgb(27, 27, 27);
+
+}
+
+
+.image-bar {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+
+}
+
+/*-------------------------------------- MENU-UL --------------------------------------------*/
+
+
+.menu-ul {        /*to move around the entire nav*/
+    display: flex;
+    float:right;
+
+}
+
+.menu-ul li {     /*to move around the individual links in the list*/
+    list-style: none;
+    color:aquamarine;
+    display: inline-block;
+    line-height: 60px;
+}
+
+
+.menu-ul li a{  /*to style the actual text inside the link*/
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    color:rgb(65, 238, 128);
+    padding: 0 40px;
+
+    font-weight: bold;
+
+}
+
+.menu-ul li a:hover{  /*hover*/
+
+    color:rgb(129, 255, 175);
+    background-color: rgb(14, 14, 14);
+}
+
+/*------------------------------------- IMAGE-UL ---------------------------------------------*/
+
+.image-ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.image-ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(65, 238, 128);
+    padding: 20 75px;
+
+}
+
+
+/*------------------------------------- HOME ---------------------------------------------*/
+.home{
+    padding: 30 75px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.558);
+    border-radius: 20px;
+
+}
+
+/*------------------------------------- ONE ---------------------------------------------*/
+.one{
+    padding: 30 75px;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+ }
+
+.display1{
+    margin: 20px;
+    text-align:center;
+    padding: 0 20px;
+ }
+
+ /*------------------------------------- TWO ---------------------------------------------*/
+
+.two{
+    padding: 30 75px;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+}
+
+
+.site{
+    
+    background-color: rgb(50, 50, 50);
+    color:rgb(65, 238, 128);
+    text-align:center;  
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+    display: block;
+ }
+
+.site a{
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    color:rgb(65, 238, 128);
+
+}
+
+.proj2{
+    text-align: center;
+}
